@@ -23,8 +23,13 @@ else
 {
 printf("%d is zero\n", n);
 }
+/**
+*regarding this format
+*
+*its not good
+*/
 return (0);
- /**
+/**
 *regarding this format
 *
 *its not good
