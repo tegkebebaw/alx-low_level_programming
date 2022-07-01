@@ -23,5 +23,8 @@ else
 {
 printf("%d is zero\n", n);
 }
-return (1);
+  /**
+  *return sucess
+  */
+return (0);
 }
