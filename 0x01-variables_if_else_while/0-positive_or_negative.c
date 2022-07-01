@@ -29,9 +29,4 @@ printf("%d is zero\n", n);
 *betty style doc for function main goes there
 */
 return (0);
-/**
-*main-entry point
-*
-*betty style doc for function main goes there
-*/
 }
