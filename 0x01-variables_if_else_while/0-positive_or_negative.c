@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <time.h>
 /**
- *main-entry point
- *
- * betty style doc for function main goes there 
+*main-entry point
+*
+* betty style doc for function main goes there 
 */
 int main(void)
 {
@@ -24,5 +24,8 @@ int main(void)
 	{
 	printf("%d is zero\n", n);
 	}
+	/**
+	 * this is return for main
+	 */
 	return (0);
 }
