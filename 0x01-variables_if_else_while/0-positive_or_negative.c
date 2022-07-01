@@ -24,10 +24,14 @@ else
 printf("%d is zero\n", n);
 }
 /**
+*fuck
+*sheet
 * this is return for main
 */
 return (0);
 /**
+*regarding this format
+*
 *fuck you betty
 */
 }
