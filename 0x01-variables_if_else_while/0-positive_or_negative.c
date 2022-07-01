@@ -24,14 +24,9 @@ else
 printf("%d is zero\n", n);
 }
 /**
-*regarding this format
+*return value
 *
-*its not good
+*this function will return 0
 */
 return (0);
-/**
-*regarding this format
-*
-*its not good
-*/
 }
