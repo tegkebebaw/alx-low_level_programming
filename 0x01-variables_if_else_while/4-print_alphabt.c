@@ -7,10 +7,11 @@
 int main(void)
 {
 	char alpha;
-  for(alpha = 'a';alpha <='z';alpha++)
+  for(alpha = 'a'; alpha <= 'z'; alpha++)
   {
-    if(alpha=='e' || alpha =='e')
-    {    
+    if(alpha == 'e' || alpha == 'e')
+    {
+      continue;
     }
     else
     {
