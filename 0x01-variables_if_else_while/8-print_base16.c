@@ -8,7 +8,7 @@ int main(void)
 
 for(;n <= 0xf; n++)
   {
-   putchar(n + 'x'); 
+   putchar(n + '0'); 
   }
   putchar('\n');
 	return (0);
