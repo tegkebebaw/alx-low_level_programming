@@ -23,7 +23,15 @@ else
 {
 printf("%d is zero\n", n);
 }
-
+/**
+*main-entry point
+*
+*betty style doc for function main goes there
+*/
 return (0);
-  /* return type in */
+/**
+*main-entry point
+*
+*betty style doc for function main goes there
+*/
 }
