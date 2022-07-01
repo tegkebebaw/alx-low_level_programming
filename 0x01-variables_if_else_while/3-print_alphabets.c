@@ -1,13 +1,16 @@
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+*this is main entry
+*
+* betty style doc for function main goes there
+*/
 int main(void)
 {
 	char smal, cap='A';
-  for (smal = 'a'; small <= 'z'; small++)
+  for (smal = 'a'; smal <= 'z'; smal++)
   {
-    putchar(small);
+    putchar(smal);
     putchar(cap);
     putchar('\n');
     cap++;
