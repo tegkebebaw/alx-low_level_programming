@@ -11,10 +11,11 @@ int main(void)
   for (smal = 'a'; smal <= 'z'; smal++)
   {
     putchar(smal);
-    putchar(cap);
-    putchar('\n');
-    cap++;
   }
-
+  for (;cap <= 'Z';cap++)
+    {
+      putchar(cap);
+    }
+  putchar('\n');
 	return (0);
 }
