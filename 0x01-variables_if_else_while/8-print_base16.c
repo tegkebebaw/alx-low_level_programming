@@ -6,9 +6,9 @@ int main(void)
 {
 	int n=0x0;
 
-	for(;n<0xf;n++)
+for(;n <= 0xf; n++)
   {
-   putchar(n + '0'); 
+   putchar(n + 'x'); 
   }
   putchar('\n');
 	return (0);
