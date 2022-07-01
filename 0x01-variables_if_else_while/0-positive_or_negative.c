@@ -20,18 +20,11 @@ else if (n > 0)
 printf("%d is positive\n", n);
 }
 else
-{
-printf("%d is zero\n", n);
-}
-/**
-*fuck
-*sheet
-* this is return for main
-*/
+{printf("%d is zero\n", n);
 return (0);
 /**
 *regarding this format
 *
-*fuck you betty
-*/
+*fuck you bett
+*
 }
