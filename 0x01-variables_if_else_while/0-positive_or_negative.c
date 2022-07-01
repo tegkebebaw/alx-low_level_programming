@@ -28,5 +28,5 @@ return (0);
 *regarding this format
 *
 *fuck you bett
-*
+*/
 }
