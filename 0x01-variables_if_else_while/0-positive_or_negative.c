@@ -23,9 +23,7 @@ else
 {
 printf("%d is zero\n", n);
 }
-  /**
-  *this is killing me
-  *return sucess
-  */
+
 return (0);
+  /* return type in */
 }
