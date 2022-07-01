@@ -23,10 +23,5 @@ else
 {
 printf("%d is zero\n", n);
 }
-/**
-*return value
-*
-*this function will return 0
-*/
 return (0);
 }
