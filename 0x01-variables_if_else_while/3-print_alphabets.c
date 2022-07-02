@@ -1,21 +1,22 @@
 #include <stdio.h>
-
 /**
-*this is main entry
+* main - Entry point
+*putchar - print function
 *
-* betty style doc for function main goes there
+* Return: Always 0 (Success)
+* putchar: print 0 (string)
 */
 int main(void)
 {
-	char smal, cap='A';
-  for (smal = 'a'; smal <= 'z'; smal++)
-  {
-    putchar(smal);
-  }
-  for (;cap <= 'Z';cap++)
-    {
-      putchar(cap);
-    }
-  putchar('\n');
-	return (0);
+char smal, cap = 'A';
+for (smal = 'a'; smal <= 'z'; smal++)
+{
+putchar(smal);
+}
+for (;cap <= 'Z'; cap++)
+{
+putchar(cap);
+}
+putchar('\n');
+return (0);
 }
