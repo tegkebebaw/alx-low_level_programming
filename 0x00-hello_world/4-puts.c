@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
-*this is main entry 
-*this program just print one message
+* main - Entry point
+*puts - print function
+*
+* Return: Always 0 (Success)
+* puts: print 0 (string)
 */
 int main(void)
 {
