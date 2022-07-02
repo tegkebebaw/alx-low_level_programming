@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-char smal, cap = 'A';
+char smal;
 for (smal = 'a'; smal <= 'z'; smal++)
 {
 putchar(smal);
