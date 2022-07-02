@@ -2,9 +2,11 @@
 #include <stdio.h>
 #include <time.h>
 /**
-*main-entry point
+* main - Entry point
+*printf - print function
 *
-*betty style doc for function main goes there
+* Return: Always 0 (Success)
+* printf: print 0 (string)
 */
 int main(void)
 {
@@ -23,10 +25,5 @@ else
 {
 printf("%d is zero\n", n);
 }
-/**
-*main-entry point
-*
-*betty style doc for function main goes there
-*/
 return (0);
 }
