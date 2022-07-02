@@ -13,7 +13,7 @@ for (smal = 'a'; smal <= 'z'; smal++)
 {
 putchar(smal);
 }
-for (;cap <= 'Z'; cap++)
+for (; cap <= 'Z'; cap++)
 {
 putchar(cap);
 }
