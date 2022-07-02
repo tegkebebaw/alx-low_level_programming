@@ -9,10 +9,5 @@
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
-/**
-*return for main
-*
-*this is return value for main
-*/
 return (0);
 }
