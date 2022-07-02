@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
-*main entry
+* main - Entry point
 *
-*this is main entry this program just print one message
+* Return: Always 0 (Success)
+* printf: print 0 (string)
 */
 int main(void)
 {
