@@ -1,16 +1,18 @@
 #include <stdio.h>
-
 /**
- *main entry
- *
- * betty style doc for function main goes there */
+* main - Entry point
+*printf - print function
+*
+* Return: Always 0 (Success)
+* printf: print 0 (string)
+*/
 int main(void)
 {
-  int i;
+int i;
 for(i = 0; i < 10; i++)
-  {
-    printf("%d",i);
-  }
-  printf("\n");
-	return (0);
+{
+printf("%d", i);
+}
+printf("\n");
+return (0);
 }
