@@ -1,10 +1,10 @@
-#include<stdio.h>
-/*
- *this is simple out put c program using puts
- */
-
+#include <stdio.h>
+/**
+*this is main entry 
+*this program just print one message
+*/
 int main(void)
 {
-puts("Programming is like building a multilingual puzzle \n");
-return (0);
+ puts("Programming is like building a multilingual puzzle\n");
+ return (0);
 }
