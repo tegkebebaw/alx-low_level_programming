@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*this is main entry 
+*this is main entry
 *
 *this program just print one message
 */
