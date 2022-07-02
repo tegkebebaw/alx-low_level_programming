@@ -12,7 +12,7 @@ int n = 0x0;
 char ltr = 'a';
 for (; n <= 0xf; n++)
 {
-if (n >=10)
+if (n >= 10)
 {
 putchar(ltr);
 ltr++;
