@@ -6,7 +6,7 @@
 #include <stdio.h>
 /*
 * main - Entry point
-*printf - print function
+*return - print function
 *
 * Return: Always 0 (Success)
 * main: main is entry point
@@ -21,6 +21,6 @@ _putchar('c');
 _putchar('h');
 _putchar('a');
 _putchar('r');
-_putchar(' ');
+_putchar('\n');
 return (0);
 }
