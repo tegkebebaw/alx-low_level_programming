@@ -1,5 +1,8 @@
+/**
+*File: 0-putchar.c
+*
+*/
 #include <main.h>
-#include <stdio.h>
 /**
 * main - Entry point
 *printf - print function
@@ -9,6 +12,13 @@
 */
 int main(void)
 {
-puts(_putchar());
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('H');
+_putchar('a');
+_putchar('r');
 return (0);
 }
