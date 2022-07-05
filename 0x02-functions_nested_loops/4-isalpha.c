@@ -1,9 +1,11 @@
 #include "main.h"
 /**
- * _isalpha(int c) - chek if the variable is later small orcapital case or not.
+ * _isalpha - Checks if a character is alphabetic.
+ * @c: The character to be checked.
  *
- * return(int): return 1 if its small case else 0.
+ * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise.
  */
+
 int _isalpha(int c)
 {
 if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
