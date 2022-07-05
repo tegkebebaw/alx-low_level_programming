@@ -6,5 +6,6 @@
 *descriptio: Header file containing declarations for all function
 */
 int _putchar (char c);
+void print-alphabet(char *c);
 
 #endif
