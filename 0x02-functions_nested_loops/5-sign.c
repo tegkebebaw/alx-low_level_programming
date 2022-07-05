@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - Checks if the sign of number.
- *@n - is variable passed as parameter
+ * @c: The character to be checked.
  *_putchar -print character
  * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise.
  */
