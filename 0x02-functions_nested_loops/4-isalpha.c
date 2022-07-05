@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower(int c) - chek if the later is small case or not.
+ * _isalpha(int c) - chek if the variable is later small orcapital case or not.
  *
  * return(int): return 1 if its small case else 0.
  */
