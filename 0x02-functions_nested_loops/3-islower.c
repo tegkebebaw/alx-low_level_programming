@@ -2,6 +2,7 @@
 /**
  * _islower - chek if the later is small case or not.
  *@c : parameter passed
+ *
  * return (int): return 1 if its small case else 0.
  */
 int _islower(int c)
