@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  print_last_digit - calculate absolute value of n.
+ *  add - calculate the sum.
  * @n: first parameter.
   * @m: second parameter.
  * Return: the sum.
