@@ -4,12 +4,12 @@
 */
 #include "main.h"
 #include <stdio.h>
-/*
+/**
 * main - Entry point
-*return - print function
+*printf - print function
 *
 * Return: Always 0 (Success)
-* main: main is entry point
+* printf: print 0 (string)
 */
 int main(void)
 {
