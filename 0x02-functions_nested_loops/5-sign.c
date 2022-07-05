@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_sign - Checks if the sign of number.
+ *@n is chracter received
  *_putchar -print character
  * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise.
  */
@@ -14,7 +15,7 @@ return (1);
 else if (n == 0)
 {
 _putchar('0');
-return (0); 
+return (0);
 }
 else
 {
