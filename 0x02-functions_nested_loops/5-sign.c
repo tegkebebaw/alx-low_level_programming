@@ -10,18 +10,18 @@ if (n > 0)
 {
 _putchar('+');
 _putchar(',');
-return (n);
+return (1);
 }
 else if (n == 0)
 {
 _putchar('0'+'0');
 _putchar(',');
-return (n); 
+return (0); 
 }
 else
 {
 _putchar('-');
 _putchar(',');
-return (n);
+return (-1);
 }
 }
