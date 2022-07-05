@@ -1,5 +1,1 @@
-#include <stdio.h>
-_putchar()
-{
-  printf("_putchar\n");
-}
+char *_putchar ("_putchar");
