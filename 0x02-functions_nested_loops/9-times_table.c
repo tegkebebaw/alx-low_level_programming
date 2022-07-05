@@ -1,7 +1,8 @@
 #include "main.h"
-
 /**
- * times_table - Prints time table.
+ * add - Prints time table.
+ *@n : parameter 1
+ @m : parameter 2
  */
 void times_table(void)
 {
