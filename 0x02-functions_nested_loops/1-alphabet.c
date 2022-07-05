@@ -7,6 +7,6 @@
 int main(void)
 {
 
-print-alphabet();
+print_alphabet();
 return (0);
 }
