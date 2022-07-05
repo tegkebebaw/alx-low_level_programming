@@ -18,8 +18,9 @@ _putchar('p');
 _putchar('u');
 _putchar('t');
 _putchar('c');
-_putchar('H');
+_putchar('h');
 _putchar('a');
 _putchar('r');
+_putchar(' ');
 return (0);
 }
