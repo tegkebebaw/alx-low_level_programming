@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - check the code
+ * print_alphabet - prints alphabet
  *
- * Return: Always 0.
+ * putchar: put char to screen.
  */
 void print_alphabet(void)
 {
