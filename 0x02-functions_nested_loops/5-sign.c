@@ -1,25 +1,24 @@
 #include "main.h"
 /**
- * _isalpha - Checks if a character is alphabetic.
- * @c: The character to be checked.
- *
+ * print_sign - Checks if the sign of number.
+ *_putchar -print character
  * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise.
  */
 int print_sign(int n)
 {
-if (n>0)
+if (n > 0)
 {
-_putchar('+')
+_putchar('+');
 return (n);
 }
-else if (n<0)
+else if (n == 0)
 {
-_putchar('-')
-return (n);
+_putchar('0');
+return (n); 
 }
 else
 {
-_putchar('0')
-return (n); 
+_putchar('-');
+return (n);
 }
 }
