@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _isdigit - chek if the later is small case or not.
+ * mul - function to multiply two number.
  *@a : parameter 1 passed
  *@b : parameter 2 passed
- * return (int): return 1 if its capital otherwise 0.
+ * return : return the product of the two number.
  */
 int mul(int a, int b)
 {
