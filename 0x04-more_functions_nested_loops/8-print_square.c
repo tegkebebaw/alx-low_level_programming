@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line - chek if the later is small case or not.
+ * print_square - chek if the later is small case or not.
  * 
  */
 void print_square(int size)
