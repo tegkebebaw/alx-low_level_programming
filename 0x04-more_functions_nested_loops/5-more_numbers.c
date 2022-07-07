@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * print_numbers - chek if the later is small case or not.
+ * more_numbers - print more number.
  * 
- * return (int): return 1 if its capital otherwise 0.
+ * @i - temp variable
+ *@j - temporary variable
  */
 void more_numbers(void)
 {
@@ -14,7 +15,7 @@ for (; j < 15; j++)
 {
 _putchar(i+'0');
 }
-_putchar("\n");
+_putchar('\n');
 }
-_putchar("\n");
+_putchar('\n');
 }
