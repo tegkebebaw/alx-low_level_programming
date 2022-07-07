@@ -5,7 +5,7 @@
  *@b : parameter 2 passed
  * return (int): return 1 if its capital otherwise 0.
  */
-int int mul(int a, int b)
+int mul(int a, int b)
 {
 return (a * b);
 }
