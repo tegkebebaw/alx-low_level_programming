@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_numbers - chek if the later is small case or not.
  * 
@@ -15,7 +14,7 @@ if (i == 4 || i == 2)
 continue
 }
 else
-printf("%d", i);
+_putchar (i+'0');
 }
-printf("\n");
+_putchar("\n");
 }
