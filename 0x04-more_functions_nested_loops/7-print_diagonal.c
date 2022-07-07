@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print_line - chek if the later is small case or not.
- * 
+ * print_diagonal - chek if the later is small case or not.
+ *@i - initial variable
+ *@j - temp variable
  */
 void print_diagonal(int n)
 {
@@ -15,5 +16,5 @@ _putchar('_');
 }
 _putchar('\n');
 }
-_putchar("\n");
+_putchar('\n');
 }
