@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_line - chek if the later is small case or not.
  * 
@@ -16,5 +15,5 @@ _putchar('#');
 }
 _putchar('\n');
 }
-printf("\n");
+_putchar('\n');
 }
