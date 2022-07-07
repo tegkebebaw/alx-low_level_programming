@@ -12,7 +12,7 @@ for (i = 0; i < n; i++)
 j=0;
 for (; j <=i; j++)
 {
-_putchar('_');
+_putchar(' ');
 }
 _putchar('\n');
 }
