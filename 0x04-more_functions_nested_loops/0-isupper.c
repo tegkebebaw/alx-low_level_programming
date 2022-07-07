@@ -5,7 +5,7 @@
  *
  * return (int): return 1 if its capital otherwise 0.
  */
-int _isupper (int c)
+int _isupper (char c)
 {
 if (c >= 'A' && c <= 'Z')
 return (1);
