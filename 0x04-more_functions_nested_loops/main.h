@@ -6,6 +6,7 @@
 *descriptio: Header file containing declarations for all function
 */
 int isupper (int c);
+void print_triangle(int size);
 
 #endif
 
