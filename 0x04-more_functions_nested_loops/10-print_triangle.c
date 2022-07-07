@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - entry point.
+ * print_triangle - entry point.
  * return - return 0 allways
  */
 void print_triangle(int size)
@@ -8,7 +8,7 @@ void print_triangle(int size)
 int i,j;
 for (i = 0; i < size; i++)
 {
-  for (j = size; j > i; j--)
+for (j = size; j > i; j--)
 {
 _putchar(' ');
 }
