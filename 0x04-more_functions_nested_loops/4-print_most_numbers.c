@@ -14,7 +14,7 @@ if (i == 4 || i == 2)
 continue;
 }
 else
-_putchar (i+'0');
+_putchar (i + '0');
 }
 _putchar("\n");
 }
