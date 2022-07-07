@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_line - chek if the later is small case or not.
  * 
@@ -12,9 +11,9 @@ for (i = 0; i < n; i++)
 j=0;
 for (; j <=i; j++)
 {
-putchar('_');
+_putchar('_');
 }
-putchar('\n');
+_putchar('\n');
 }
-printf("\n");
+_putchar("\n");
 }
