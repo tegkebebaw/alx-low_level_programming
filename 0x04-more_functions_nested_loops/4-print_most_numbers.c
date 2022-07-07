@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * print_numbers - chek if the later is small case or not.
- * 
- * return (int): return 1 if its capital otherwise 0.
+ * print_most_numbers - print most of the numbers.
+ * @i - temporary variable
  */
 void print_most_numbers(void)
 {
