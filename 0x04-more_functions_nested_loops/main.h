@@ -7,6 +7,7 @@
 */
 int isupper (int c);
 void print_triangle(int size);
+void print_square(int size);
 
 #endif
 
