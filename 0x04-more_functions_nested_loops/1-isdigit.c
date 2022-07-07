@@ -5,7 +5,7 @@
  *
  * return (int): return 1 if its capital otherwise 0.
  */
-int _isdigit (char c)
+int _isdigit(int c)
 {
 if (c >= 48 && c <= 57)
 return (1);
