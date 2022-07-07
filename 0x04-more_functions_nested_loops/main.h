@@ -5,7 +5,7 @@
 *
 *descriptio: Header file containing declarations for all function
 */
-int isupper (int c);
+int int _isupper(int c);
 void print_triangle(int size);
 void print_square(int size);
 void print_diagonal(int n);
