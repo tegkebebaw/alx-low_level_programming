@@ -2,7 +2,7 @@
 /**
  * _isdigit - chek if the later is small case or not.
  *@c : parameter passed
- *
+ *_isdigit : function name
  *return (int): return 1 if its digit otherwise 0.
  */
 int _isdigit(int c)
