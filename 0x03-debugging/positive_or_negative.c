@@ -3,7 +3,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-positive_or_negative(int i)
+void positive_or_negative(int i)
 {
 	srand(time(0));
 	if (i<0)
@@ -18,5 +18,4 @@ positive_or_negative(int i)
 	{
 	printf("%d is zero", i);
 	}
-	return (0);
 }
