@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_numbers - chek if the later is small case or not.
- * 
+ *
  */
 void print_numbers(void)
 {
