@@ -2,10 +2,12 @@
 /**
 * main - causes an infinite loop
 * Return: 0
+*@i : variable declaration
 */
 int main(void)
 {
 int i;
+
 printf("Infinite loop incoming :(\n");
 i = 0;
 /**
