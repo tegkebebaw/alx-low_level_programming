@@ -1,14 +1,21 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * _puts - writes the character c to stdout
+ * @str: The character to print
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
  */
 void _puts(char *str)
 {
-while (*str != '\0')
-write(str));
+int count =0;
+while (count >= 0)
+{
+if (str[count] == '\0')
+{
+_putchar('\n');
+break;
+}
+_putchar(str[count]);
+count++;
+}
 }
