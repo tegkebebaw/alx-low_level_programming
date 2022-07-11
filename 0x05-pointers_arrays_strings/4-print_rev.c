@@ -1,9 +1,8 @@
 #include "main.h"
 #include <unistd.h>
-#include <string.h>
 /**
- * _puts - writes the character c to stdout
- * @str: The character to print
+ * print_rev - writes the character c to stdout
+ * @s: The character to print
  *
  */
 void print_rev(char *s)
