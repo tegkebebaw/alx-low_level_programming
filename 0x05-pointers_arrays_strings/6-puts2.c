@@ -1,8 +1,8 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * rev_string - writes the character c to stdout
- * @s: The character to print
+ * puts2 - writes the character c to stdout
+ * @str: The character to print
  *
  */
 void puts2(char *str)
