@@ -9,16 +9,13 @@
 void print_rev(char *s)
 {
 int count = 0;
-int len = strlen(s);
 while (count >= 0)
 {
-if (str[count] == '\0')
-{
-_putchar('\n');
+if (s[count] == '\0')
 break;
-}
-int n = len  -count;
-_putchar(str[n]);
 count++;
 }
+for (count--; count >= 0; count--)
+_putchar(s[count]);
+_putchar('\n');
 }
