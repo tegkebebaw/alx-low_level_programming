@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <string.h>
 /**
  *_strcmp - compair string s1 and s2,
  *@s2: destination.
