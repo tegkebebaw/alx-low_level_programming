@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+#include <stdio.h>
 /**
  *_strcmp - compair string s1 and s2,
  *@s2: destination.
@@ -13,8 +13,8 @@ while (reg == 0)
 {
 if ((*(s1 + i) == '\0') && (*(s2 + i) == '\0'))
 break;
-op = *(s1 + i) - *(s2 + i);
+reg = *(s1 + i) - *(s2 + i);
 i++;
 }
-return (op);
+return (reg);
 }
