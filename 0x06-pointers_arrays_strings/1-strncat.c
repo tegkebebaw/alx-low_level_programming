@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strcpy - copies string from src to des,
- * @dest: destination.
- * @src: source.
- * @n: number of character to be concatinated.
- * Return: the pointer to dest.
+ *_strncat - copies string from src to des,
+ *@dest: destination.
+ *@src: source.
+ *@n: number of character to be concatinated.
+ *Return: the pointer to dest.
  */
 char *_strncat(char *dest, char *src, int n)
 {
