@@ -18,9 +18,9 @@ count++;
 }
 while (count2 >= 0)
 {
-if (*(src + count) == '\0')
+if (*(src + count2) == '\0')
 break;
-*(dest + count) = *(src + count);
+*(dest + count) = *(src + count2);
 count++;
 count2++;
 }
