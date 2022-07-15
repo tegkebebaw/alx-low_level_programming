@@ -8,7 +8,7 @@
  *Return: the pointer to dest.
  */
 char *_strncat(char *dest, char *src, int n)
-{
+{    
 int count = 0, count2 = 0;
 while (count >= 0)
 {
@@ -18,7 +18,7 @@ count++;
 }
 while (count2 >= 0)
 {
-if ((*(src + count2) == '\0') || (count2 > n))
+if ((*(src + count2) == '\0') || (count2 < n))
 break;
 *(dest + count) = *(src + count2);
 count++;
