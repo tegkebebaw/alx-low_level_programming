@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  *_strcmp - compair string s1 and s2,
- *@s2: destination.
+ *@s1: destination.
  *@s2: source.
  *Return: the integer value.
  */
