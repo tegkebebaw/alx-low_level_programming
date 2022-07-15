@@ -12,7 +12,7 @@ int count = 0, count2 = 0;
 
 while (count >= 0)
 {
-if (*(src + count) == '\0')
+if (*(dest + count) == '\0')
 break;
 count++;
 }
