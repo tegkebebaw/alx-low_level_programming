@@ -15,7 +15,7 @@ if (*(s + i) == c)
 st = 1;
 break;
 }
-  i++;
+i++;
 }
 if (st == 1)
 return (s + i);
