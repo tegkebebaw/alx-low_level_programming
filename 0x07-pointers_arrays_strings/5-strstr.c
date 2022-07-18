@@ -8,20 +8,20 @@
 char *_strstr(char *haystack, char *needle)
 {
 unsigned int i, j;
-char *bhaystack;
-char *pneedle;
+char *mystack;
+char *myneedle;
 while (*haystack != '\0')
 {
-bhaystack = haystack;
-pneedle = needle;
-while (*haystack != '\0' && *pneedle != '\0' && *haystack == *pneedle)
+mystack = haystack;
+myneedle = needle;
+while (*haystack != '\0' && *pneedle != '\0' && *haystack == *myneedle)
 {
 haystack++;
-pneedle++;
+myneedle++;
 }
-if (!*pneedle)
-return (bhaystack);
-haystack = bhaystack + 1;
+if (!*myneedle)
+return (mystack);
+haystack = mystack + 1;
 }
 return (0);
 }
