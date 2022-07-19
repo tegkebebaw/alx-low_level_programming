@@ -14,4 +14,3 @@ sum += *(a + i);
 }
 printf("%d", sum);
 }
-}
