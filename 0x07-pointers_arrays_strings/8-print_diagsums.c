@@ -7,10 +7,15 @@
  */
 void print_diagsums(int *a, int size)
 {
-int i, sum = 0;
-for (i = 0; *(a + i) != '\0'; i += size)
+int i, j, cnt=0, sum = 0;
+for (i = 0; size; i++)
 {
-sum += *(a + i+1);
+for (j = 0; size; j++)
+{
+if(i == j)
+sum += *(a + cnt);
+cnt++;
+}
 }
 printf("%d", sum);
 }
