@@ -7,14 +7,13 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-unsigned int i, j;
 char *mystack;
 char *myneedle;
 while (*haystack != '\0')
 {
 mystack = haystack;
 myneedle = needle;
-while (*haystack != '\0' && *pneedle != '\0' && *haystack == *myneedle)
+while (*haystack != '\0' && *myneedle != '\0' && *haystack == *myneedle)
 {
 haystack++;
 myneedle++;
