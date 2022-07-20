@@ -13,5 +13,5 @@ if (*s == '\0')
   return 1;
 }
 else
-return(1 + _print_rev_recursion(s + 1));
+return(1 + int(_print_rev_recursion(s + 1)));
 }
