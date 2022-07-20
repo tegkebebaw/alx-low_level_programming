@@ -8,7 +8,7 @@
  */
 int powerof(int n, int y)
 {
-	if (c % (n / y) == 0)
+	if (y % (n / y) == 0)
 	{
 		if (y * (n / y) == n)
 			return (y);
