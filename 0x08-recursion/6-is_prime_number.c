@@ -5,7 +5,8 @@
  * @n: The parameter passed
  *Return: return whether the number is prime or not.
  */
-int is_prime_number(int n);{
+int is_prime_number(int n)
+{
 if (n <= 1)
 return (-1);
 else if (n <= 1)
