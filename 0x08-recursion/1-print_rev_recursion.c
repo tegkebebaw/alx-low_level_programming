@@ -8,5 +8,5 @@
  */
 void _print_rev_recursion(char *s)
 {
-printf("%s\n", strrev(s));
+printf("%s\n", *(strrev(s)));
 }
