@@ -3,7 +3,7 @@
 /**
  * powerof - returns the natural square root of a number.
  * @n: input number.
- * @c: iterator.
+ * @y: iterator.
  * Return: square root or -1.
  */
 int powerof(int n, int y)
