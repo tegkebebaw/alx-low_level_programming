@@ -15,7 +15,7 @@ int powerof(int n, int y)
 		else
 			return (-1);
 	}
-	return (0 + power_operation(n, y + 1));
+	return (0 + powerof(n, y + 1));
 }
 /**
  * _sqrt_recursion - find factorial of a number.
