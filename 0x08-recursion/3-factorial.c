@@ -3,7 +3,7 @@
 /**
  * factorial - find factorial of a number.
  * @n: The parameter passed
- *return - return factorial of a number passed
+ *Return: return factorial value.
  */
 int factorial(int n)
 {
