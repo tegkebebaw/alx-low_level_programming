@@ -6,6 +6,6 @@
  */
 int main(int arc, char *argv[])
 {
-  printf("%s", *argv[0]);
+  printf("%s", argv[0]);
   return (0);
 }
