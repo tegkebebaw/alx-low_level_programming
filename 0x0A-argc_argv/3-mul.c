@@ -14,7 +14,8 @@ printf("Error\n");
 }
 else
 {
-printf("%d\n", argv[1] * argv[2]);
+  i = argv[1] * argv[2];
+printf("%d\n", i);
 }
 return (0);
 }
