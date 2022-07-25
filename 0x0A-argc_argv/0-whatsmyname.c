@@ -5,8 +5,12 @@
  *@argv - parameter lists
  *return: Always 0 (success)
  */
-int main(char *argv[])
+int main(int argc, char *argv[])
 {
-  printf("%s\n", argv[0]);
-  return (0);
+int i = 0;
+if (argc > 0)
+printf("%s\n", argv[0]);
+else
+printf("%s\n", argv[0]); 
+return (0);
 }
