@@ -17,7 +17,7 @@ return (NULL);
 else
 {
 int **arry;
-arry = (int *)calloc(height,sizeof(int)*width );
+arry = (int **)calloc(height,sizeof(int)*width );
 if (arry == NULL)
 return (NULL);
 else
