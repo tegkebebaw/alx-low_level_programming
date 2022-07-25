@@ -17,7 +17,8 @@ if (size == 0 || size2 == 0)
 return (NULL);
 else
 {
-int i = 0, j = 0, totalsize;
+int i = 0, j = 0;
+unsigned int totalsize;
 totalsize = size + size2;
 char *arry = (char *)malloc(sizeof(char) * totalsize);
 while (*(s1 + i) != '\0')
