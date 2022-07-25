@@ -21,7 +21,8 @@ if (arry == NULL)
 {
 return ('\0');
 }
-else {
+else
+{
 while (i < size)
 {
 *(arry + i) = c;
