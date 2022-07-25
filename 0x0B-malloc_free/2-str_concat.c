@@ -22,12 +22,12 @@ unsigned int totalsize = size + size2;
 char *arry = (char *)malloc(sizeof(char) * totalsize);
 if (arry != NULL)
 {
-while (*(s1 + i) != '\0' || *(s1 + i) != NULL)
+while (*(s1 + i) != '\0' || *(s1 + i) !NULL)
 {
 *(arry+i) = *(s1 + i);
 i++;
 }
-while (*(s2 + j) != '\0' || *(s2 + j) != NULL)
+while (*(s2 + j) != '\0' || *(s2 + j) !NULL)
 {
 *(arry+i) = *(s2 + j);
 i++;
