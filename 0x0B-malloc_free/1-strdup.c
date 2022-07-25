@@ -18,7 +18,7 @@ else
 {
 int i = 0;
 char *arry = (char *)malloc(sizeof(char) * size);
-if (arry == NULL)
+if (arry == NULL || str == NULL)
 {
 return (NULL);
 }
