@@ -35,7 +35,6 @@ j++;
 }
 return (arry);
 }
-}
 else
 {
 return (NULL);
