@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  *main - entry point
- *@argc - parameter 1
- *@argv - parameter lists
- *return: Always 0 (success)
+ *@argc : parameter 1
+ *@argv : parameter lists
+ *Return: Always 0 
  */
 int main(int argc, char *argv[])
 {
