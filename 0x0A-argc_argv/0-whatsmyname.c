@@ -5,7 +5,7 @@
  *@argv - parameter lists
  *return: Always 0 (success)
  */
-int main(int arc, char *argv[])
+int main(char *argv[])
 {
   printf("%s\n", argv[0]);
   return (0);
