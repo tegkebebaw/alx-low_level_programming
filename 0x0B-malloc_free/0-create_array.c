@@ -17,11 +17,11 @@ else
 {
 unsigned int i = 0;
 char *arry = (char *)malloc(sizeof(char) * size);
-if(arry == NULL)
+if (arry == NULL)
 {
 return ('\0');
 }
-else{
+else {
 while (i < size)
 {
 *(arry + i) = c;
