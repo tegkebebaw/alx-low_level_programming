@@ -8,14 +8,15 @@
 int main(int argc, char *argv[3])
 {
 int i;
-if (argc < 3)
+if (argc != 3)
 {
 printf("Error\n");
+return (1);
 }
 else
 {
-  i = int(argv[1]) * int(argv[2]);
+i = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", i);
-}
 return (0);
+}
 }
