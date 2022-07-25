@@ -19,8 +19,14 @@ else
 int **arry;
 arry = (int **)calloc(height,sizeof(int)*width );
 if (arry == NULL)
+{
+free(arry);
 return (NULL);
+}
 else
+{
+free(arry);
 return (arry);
+}
 }
 }
