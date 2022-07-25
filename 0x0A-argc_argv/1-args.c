@@ -1,12 +1,15 @@
 #include <stdio.h>
 /**
  *main - entry point
- *@arc - parameter 1
+ *@argc - parameter 1
  *@argv - parameter lists
  *return: Always 0 (success)
  */
-int main(int argc)
+int main(int argc, char *argv[])
 {
-printf("%d\n", argc-1);
+if(argv[0] == '\0')
+printf("%d\n", 0);
+else
+printf("%d\n", argc - 1);
 return (0);
 }
