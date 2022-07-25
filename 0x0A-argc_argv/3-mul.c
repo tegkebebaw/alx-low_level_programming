@@ -5,7 +5,7 @@
  *@argv - parameter lists
  *return: Always 0 (success)
  */
-int main(int argc, int *argv[3])
+int main(int argc, int argv[3])
 {
 int i;
 if (argc < 3)
