@@ -17,9 +17,9 @@ else
 {
 unsigned int i = 0;
 char *arry = (char *)malloc(sizeof(char) * size);
-while (i < size)
+while (i < size && arry != null)
 {
-*(arry+i) = c;
+*(arry + i) = c;
 i++;
 }
 return (arry);
