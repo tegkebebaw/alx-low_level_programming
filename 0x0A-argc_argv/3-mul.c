@@ -2,9 +2,9 @@
 #include <stdlib.h>
 /**
  *main - entry point
- *@argc - parameter 1
- *@argv - parameter lists
- *Return: Always 0 (success)
+ *@argc : parameter 1
+ *@argv : parameter lists
+ *Return: Always 0 (success) or 1 failed
  */
 int main(int argc, char *argv[3])
 {
