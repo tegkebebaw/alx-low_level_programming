@@ -3,7 +3,7 @@
  *main - entry point
  *@argc : parameter 1
  *@argv : parameter lists
- *Return: Always 0 
+ *Return: Always 0
  */
 int main(int argc, char *argv[])
 {
