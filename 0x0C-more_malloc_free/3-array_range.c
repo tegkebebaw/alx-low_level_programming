@@ -15,10 +15,10 @@ unsigned int i, j;
 if (min > max)
 return (NULL);
 j = max - min;
-c = malloc(sizeof(int) * j);
+c = malloc(sizeof(int) * (j + 1));
 if (c == NULL)
 return (NULL);
-for (i = 0; i < j; i++)
+for (i = 0; i <= j; i++)
 c[i] = min + i;
 return (c);
 }
