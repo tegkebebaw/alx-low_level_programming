@@ -7,10 +7,12 @@
 * @owner: owner of the dog
 *descriptio: Header file containing declarations user defined variable type dog
 */
+void init_dog(struct dog *d, char *name, float age, char *owner);
 struct dog
 {
 char *name;
 float age;
 char * owner;
 };
+
 #endif
