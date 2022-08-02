@@ -6,6 +6,5 @@
 *ABS:definition to calculate absolute value
 *descriptio: Header file containing definition for ABS(x)
 */
-#define ABS(x) ((x) >= (0) ? (x):((-1) * (x)))
-
+#define ABS(x) ((x) >= (0) ? (x) : ((-1) * (x)))
 #endif
