@@ -1,4 +1,4 @@
-#ifndif like_macro_H
+#ifndef  like_macro_H
 #define like_macro_H
 /**
 *File: 3-function_like_macro.h
