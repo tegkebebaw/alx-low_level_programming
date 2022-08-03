@@ -1,7 +1,6 @@
-
+#include<stdio.h>
 #ifndef function_pointer
 #define function_pointer
-
 /**
 *File: function_pointer.h
 *
