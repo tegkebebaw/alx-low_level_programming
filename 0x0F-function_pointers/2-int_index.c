@@ -12,7 +12,7 @@ return (-1);
 int i;
 for (i = 0; i < size; i++)
 {
-if (action(array[i]))
+if (cmp(array[i]))
 return (i);
 }
 return (-1);
