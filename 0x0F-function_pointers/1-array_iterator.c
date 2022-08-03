@@ -1,3 +1,4 @@
+#include "function_pointers.h"
 #include <stdio.h>
 /**
  * array_iterator - a function which points to another function whch can do any thing in the given function
