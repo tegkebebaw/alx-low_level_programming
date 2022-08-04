@@ -3,7 +3,7 @@
 #include "variadic_functions.h"
 /**
  * sum_them_all - function to return sum of numbers passed
- *@n : number of parameter passed
+ *@n: number of parameter passed
  *... : list of parameter passed
  * Return: Always sum or 0.
  */
