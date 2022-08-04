@@ -18,7 +18,7 @@ for (i = 0; i < n; i++)
 if (separator && i > n-1)
 printf("%d%s", va_arg (myary, int), separator);
 else
-printf("%s", separator);
+printf("%d", va_arg (myary, int));
 }
 printf("\n");
 va_end(valist);
