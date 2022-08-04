@@ -19,7 +19,7 @@ for (i = 0; i < n; i++)
 if (separator != NULL)
 printf("%s%s ", va_arg (myary, char *), separator);
 else
-printf("%snil", va_arg (myary, char *),);
+printf("%snil", va_arg (myary, char *));
 }
 printf("\n");
 }
