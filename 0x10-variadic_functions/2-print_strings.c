@@ -3,9 +3,8 @@
 #include "variadic_functions.h"
 /**
  * print_strings - function to print strings passed by separator
- *@separator : separator
- *@n : number of numbers to be printed
- *... : list of parameter passed
+ *@separator: separator
+ *@n: number of numbers to be printed
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
@@ -16,11 +15,12 @@ unsigned int i;
 va_start (myary, n);
 for (i = 0; i < n; i++)
 {
-if (separator != NULL)
+if (separator != NULL && i > n - 1)
 printf("%s%s ", va_arg (myary, char *), separator);
 else
 printf("%snil", va_arg (myary, char *));
 }
 printf("\n");
+va_end(myary);
 }
 }
