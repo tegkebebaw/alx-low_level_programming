@@ -9,6 +9,8 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
+if (n > 0)
+{
 va_list myary;
 unsigned int i;
 va_start (myary, n);
@@ -20,4 +22,5 @@ else
 printf("%d", va_arg (myary, int));
 }
 printf("\n");
+}
 }
