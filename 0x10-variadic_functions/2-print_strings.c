@@ -17,9 +17,9 @@ va_start (myary, n);
 for (i = 0; i < n; i++)
 {
 if (separator != NULL)
-printf("%s%s ", va_arg (myary, int), separator);
+printf("%s%s ", va_arg (myary, char *), separator);
 else
-printf("%snil", va_arg (myary, int),);
+printf("%snil", va_arg (myary, char *),);
 }
 printf("\n");
 }
