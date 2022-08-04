@@ -14,7 +14,7 @@ int sum_them_all(const unsigned int n, ...)
   else
   {
   va_list myary;
-  int i, sum;
+  unsigned int i, sum;
   va_start (myary, n);
   sum = 0;
   for (i = 0; i < n; i++)
