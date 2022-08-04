@@ -21,6 +21,6 @@ else
 printf("%d", va_arg (myary, int));
 }
 printf("\n");
-va_end(valist);
+va_end(myary);
 }
 }
