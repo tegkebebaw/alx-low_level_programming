@@ -12,13 +12,13 @@ if (n > 0)
 {
 va_list myary;
 unsigned int i;
-va_start (myary, n);
+va_start(myary, n);
 for (i = 0; i < n; i++)
 {
-if (separator && i > n-1)
-printf("%d%s", va_arg (myary, int), separator);
+if (separator && i < n - 1)
+printf("%d%s", va_arg(myary, int), separator);
 else
-printf("%d", va_arg (myary, int));
+printf("%d", va_arg(myary, int));
 }
 printf("\n");
 va_end(myary);
