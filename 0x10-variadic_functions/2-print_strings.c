@@ -15,7 +15,7 @@ unsigned int i;
 va_start (myary, n);
 for (i = 0; i < n; i++)
 {
-if (va_arg (myary, char *) != NULL && i > n - 1)
+if (va_arg (myary, char *) != NULL && i < n - 1)
 printf("%s%s ", va_arg (myary, char *), separator);
 else if (va_arg (myary, char *) == NULL && i > n - 1)
 printf("%snil", va_arg (myary, char *));
