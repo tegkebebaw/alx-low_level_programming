@@ -9,17 +9,17 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-if ( n == 0)
-return 0;
+if (n == 0)
+return (0);
 else
 {
 va_list myary;
 unsigned int i, sum;
-va_start (myary, n);
+va_start(myary, n);
 sum = 0;
 for (i = 0; i < n; i++)
-sum += va_arg (myary, int);
+sum += va_arg(myary, int);
 va_end (myary);
-return sum;
+return (sum);
 }
 }
