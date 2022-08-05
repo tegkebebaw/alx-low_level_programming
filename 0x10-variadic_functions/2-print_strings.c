@@ -8,21 +8,27 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-if (n > 0)
-{
-va_list myary;
-unsigned int i;
-va_start (myary, n);
-for (i = 0; i < n; i++)
-{
-if (va_arg (myary, char *) && i < n - 1)
-printf("%s%s ", va_arg (myary, char *), separator);
-else if (va_arg (myary, char *) && i < n - 1)
-printf("%snil", va_arg (myary, char *));
-else
-printf("%s", va_arg (myary, char *));
-}
-printf("\n");
-va_end(myary);
-}
+va_list valist;
+	unsigned int i;
+	char *str;
+
+	va_start(valist, n);
+
+	for (i = 0; i < n; i++)
+	{
+		str = va_arg(valist, char *);
+
+		if (str)
+			printf("%s", str);
+		else
+			printf("(nil)");
+
+		if (i < n - 1)
+			if (separator)
+				printf("%s", separator);
+	}
+
+	printf("\n");
+	va_end(valist);
+  
 }
