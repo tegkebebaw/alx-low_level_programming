@@ -1,6 +1,12 @@
 #ifndef lists_H
 #define lists_H
 /**
+ * lists.h - file name
+ 
+ * Description: conatan definitions
+ */
+size_t print_list(const list_t *h);
+/**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
  * @len: length of the string
@@ -14,6 +20,5 @@ typedef struct list_s
     unsigned int len;
     struct list_s *next;
 } list_t;
-size_t print_list(const list_t *h);
 
 #endif
