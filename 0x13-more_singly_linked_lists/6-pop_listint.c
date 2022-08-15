@@ -17,7 +17,7 @@ int pop_listint(listint_t **head)
 
 	curnt = *head;
 
-	headnode = curnt->next;
+	headnode = curnt->n;
 
 	h = curnt->next;
 
