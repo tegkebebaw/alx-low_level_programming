@@ -1,5 +1,10 @@
 #ifndef main_H
 #define main_H
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdlib.h>
 /**
 *File: main.h
 *
